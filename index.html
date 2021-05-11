@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>MedicoM!</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+  <header>
+
+    <center> <div class="logo">
+      <a href="index.html"><h1 class="logos">Medico<span class="logos">M</span>!</h1></a>
+    </div></center>
+    <br>
+    <div class="head">
+      <ul>
+        <li><a href="#"><i class="fa fa-envelope-square"></i>Medical News</a></li>
+        <li><a href="#"><i class="fas fa-plus"></i>What's New?</a></li>
+        <li><a href="#"><i class="fa fa-phone"></i>Contact Us!</a></li>
+        <li><a href="#"><i class="fa fa-user"></i>My account</a></li>
+      </ul>
+    </div>
+
+    <br><br>``
+
+    <div class="search">
+      <input type="text" name="search" placeholder="What are you looking for today?">
+      <a href="#"><i class="fa fa-search">Search</i></a>
+      <a href="#"><i class="fa fa-shopping-cart cart">My Cart</i></a>
+    </div>
+  </header>
+
+  <nav class="topnav" id="myTopnav">
+    <a href="#" class="active"><i class="fa fa-home navibar-icons"></i>Home</a>
+    <a href="#"><i class="fas fa-stethoscope navibar-icons"></i>Doctor</a>
+    <a href="#"><i class="fa fa-plus-square navibar-icons"></i>Lab</a>
+    <a href="#"><i class="fa fa-heartbeat navibar-icons"></i>Medicine</a>
+    <a href="#"><i class="fa fa-hospital-o navibar-icons"></i>Hospitals</a>
+    <div class="dropdown" id="categories">
+      <button class="dropbtn"><i class="fa fa-medkit navibar-icons" aria-hidden="true"></i>Ages...
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#"><18</a>
+        <a href="#">18-45</a>
+        <a href="#">46-60</a>
+        <a href="#">60+</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="responsiveNavbarFunc()">&#9776;</a>
+  </nav>
+
+  <main>
+
+    <div class="we-help">We help </div><i class="fa fa-heart fa-5x heart-icon"></i><div class="save-lives">save lives...</div>
+
+    <a href="#"><img class="mySlides" src="Images/banner-1.jfif"></a>
+    <a href="#"><img class="mySlides" src="Images/banner-2.jfif"></a>
+    <a href="#"><img class="mySlides" src="Images/banner-3.jfif"></a>
+
+    <br><br><br><br><br>
+    <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+    <br><br><br>
+
+    <section class="item3">
+      <div class="inner-3">
+        <div>
+          <h4>NEW!</h4>
+          <p>Product-1</p>
+          <button type="button" name="button">Buy Now!</button>
+        </div>
+        <img src="Images/product-1.jfif" alt="Product-1">
+      </div>
+      <div class="inner-3">
+        <div>
+          <h4>NEW!</h4>
+          <p>Product-2</p>
+          <button type="button" name="button">Buy Now!</button>
+        </div>
+        <img src="Images/product-2.jfif" alt="Product-2">
+      </div>
+      <div class="inner-3">
+        <div>
+          <h4>NEW!</h4>
+          <p>Product-3</p>
+          <button type="button" name="button">Buy Now!</button>
+        </div>
+        <img src="Images/product-3.jfif" alt="Product-3">
+      </div>
+    </section>
+
+    <section class="cl">
+      <h1>ON SALE!</h1>
+      <section class="seller">
+        <div class="inner-seller">
+          <img src="Images/product-4.jfif" alt="Product-4">
+          <div class="inner-left">
+            <div>
+              <p>Product-4</p>
+              <del>$YY.YY</del>
+              <h3>ONLY $XX.XX</h3>
+            </div>
+            <button type="button" name="button">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="inner-seller">
+          <img src="Images/product-5.jfif" alt="Product-5">
+          <div class="inner-left">
+            <div>
+              <p>Product-5</p>
+              <del>$YY.YY</del>
+              <h3>ONLY $XX.XX</h3>
+            </div>
+            <button type="button" name="button">Add to Cart</button>
+          </div>
+        </div>
+
+        <div class="inner-seller">
+          <img src="Images/Product-6.jfif" alt="Product-6">
+          <div class="inner-left">
+            <div>
+              <p>Product-6</p>
+              <del>$YY.YY</del>
+              <h3>ONLY $XX.XX</h3>
+            </div>
+            <button type="button" name="button">Add to Cart</button>
+          </div>
+        </div>
+
+      </section>
+    </section>
+
+    <section class="large">
+      <div class="inner-large">
+        <img src="Images/product-7.jfif" alt="product-7">
+        <div>
+          <h4>product-7</h4>
+          <h5>UPTO 15% OFF</h5>
+          <h5>$999.99</h5>
+        </div>
+      </div>
+
+      <div class="inner-large">
+        <img src="Images/product-8.jfif" alt="product-8" class="lenovo">
+        <div>
+          <h1>product-7</h1>
+          <button type="button" name="button">UPTO 20% OFF!</button>
+          <h2>$999.99</h2>
+        </div>
+      </div>
+
+      <div class="inner-large">
+        <img class="samsung-tablet-img" src="Images/product-9.jfif" alt="product-9">
+        <div class="samsung-tablet">
+          <h1>product-9</h1>
+          <h2>New in the market</h2>
+          <h2>$999.99</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="cl">
+      <h1>OUR PARTNER DIAGNOSTICS LABS</h1>
+      <section class="seller">
+        <div class="inner-seller">
+          <img src="Images/lab-1.jfif" alt="">
+          <h3>Lab-1</h3>
+          <button class="inner-left book-Appointment" type="button" name="button">Book Appointment!</button>
+        </div>
+
+        <div class="inner-seller">
+          <img src="Images/lab-2.jfif" alt="">
+          <h3>Lab-2</h3>
+          <button class="inner-left book-Appointment" type="button" name="button">Book Appointment!</button>
+        </div>
+
+        <div class="inner-seller">
+          <img src="Images/lab-3.jfif" alt="">
+          <h3>Lab-3</h3>
+          <button class="inner-left book-Appointment" type="button" name="button">Book Appointment!</button>
+        </div>
+
+      </section>
+    </section>
+
+  </main>
+
+  <footer>
+    <center>
+      <div class="message">
+        <span class="bleh">Talk to us!</span>
+        <input type="text" placeholder="Type your message here!">
+        <button type="button" name="button">Send</button><br><br><br>
+
+        <i class="fa fa-facebook facebook"></i>
+        <i class="fa fa-twitter twitter"></i>
+        <i class="fa fa-instagram instagram"></i>
+        <i class="fa fa-pinterest pinterest"></i>
+        <i class="fa fa-reddit reddit"></i>
+        <i class="fa fa-youtube youtube"></i>
+        <i class="fa fa-linkedin linkedin"></i>
+        <i class="fa fa-whatsapp whatsapp"></i>
+      </center>
+    </div>
+    <ul class="footer-list">
+      <li class="footer-header"> <h3>Patient Section</h3> </li>
+      <li class="footer-content"><a href="#"></a>Sign up!</li>
+      <li class="footer-content"><a href="#"></a>Free home checkup!</li>
+      <li class="footer-content"><a href="#"></a>Appointment</li>
+      <li class="footer-content"><a href="#"></a>Payments</li>
+    </ul>
+    <ul class="footer-list">
+      <li class="footer-header"> <h3>Customer services</h3> </li>
+      <li class="footer-content"><a href="#"></a>Secure</li>
+      <li class="footer-content"><a href="#"></a>Refund</li>
+      <li class="footer-content"><a href="#"></a>Responsiblity</li>
+      <li class="footer-content"><a href="#"></a>Random</li>
+    </ul>
+    <ul class="footer-list">
+      <li class="footer-header"><h3>Reach us</h3></li>
+      <li class="footer-content"><a href="#"><i class="fa fa-phone"></i>123-456-789</a></li>
+      <li class="footer-content"><a href="#"><i class="fa fa-map-marker"></i>123/45, city, state, India</a></li>
+      <li class="footer-content"><a href="#"><i class="fa fa-envelope"></i>mallm!@abc.xyz</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
